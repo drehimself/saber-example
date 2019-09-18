@@ -1,0 +1,9 @@
+siteConfig:
+  title: My Blog
+
+permalinks:
+  post: /posts/:slug
+  page: /:slug
+
+plugins:
+  - resolve: saber-plugin-query-posts
